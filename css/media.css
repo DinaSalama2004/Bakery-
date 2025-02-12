@@ -1,0 +1,82 @@
+
+
+
+@media screen and (max-width: 1001px)
+{
+
+
+  .contact{
+    margin-bottom: 250px;
+  }
+  .w-100{
+    width: 100% !important;
+  }
+ 
+  .gallery-items .container .item{
+    width: 100%;
+  }
+    .container{
+        width: 95%;
+    }
+
+.info .container .info-block {
+  width: 100%;
+}
+    /* -------------------------   nav part ----------------------------- */
+
+    .nav-bar div.links{
+        width: 100%;
+    }
+    .nav-bar div.links ul{
+    display: none;
+    }
+
+
+    /* when click disable boredr in links in nav bar */
+    body .nav-bar div.links ul li:after{
+        opacity: 0 !important; 
+    }
+
+    .nav-bar div.links ul li{
+        padding: 20px;
+        border: .01px solid rgba(128, 128, 128, 0.159);
+    }
+
+    .nav-bar .container{
+        display: flex;
+        flex-direction:column ;
+    }
+
+
+    /* icon close and list  */
+  .list{
+    display: flex;
+  }
+
+  body:has(#list:checked)  .nav-bar div.links ul{
+    display: flex;
+    flex-direction:column ;
+  }
+  body:has(#list:checked) .list-icon{
+    display: none;
+  }
+  body:has(#list:checked) .close-icon{
+    display: flex;
+  }
+  .close-icon{
+    display: none;
+  }
+
+
+
+
+
+  /* ----------------------------    */
+
+
+ html body  .item , .ourBaking .item{
+    width: 100%;
+  }
+}
+
+

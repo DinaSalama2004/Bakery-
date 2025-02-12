@@ -1,0 +1,54 @@
+.gallery-items .message{
+    width: 100%;
+    background-color: #F7F7F7;
+ padding: 40px;
+ margin-bottom: 30px;
+}
+
+
+
+
+.gallery-items i{
+    font-size: 35px;
+    color: #F7F7F7;
+    
+}
+.gallery-items .container .item img{
+    width: 100%;
+  
+    transition: transform 0.3s ease-in-out; 
+    
+    
+}
+.gallery-items .container{
+ gap: 5px;
+}
+.gallery-items .container .item:hover .layer{
+    opacity: 1;
+}
+.gallery-items .container .item:hover img{
+  transform: scale(1.05);
+ 
+}
+.gallery-items .container .item .layer{
+    position: absolute;
+    inset: 0;
+        display: block; 
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all .5s;
+
+}
+
+.gallery-items .container .item{
+    width: 33%;
+   
+
+    position: relative;
+    overflow: hidden;
+    background-color: bisque;
+
+}
